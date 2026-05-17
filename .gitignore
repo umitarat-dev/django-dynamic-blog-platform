@@ -1,0 +1,55 @@
+# ====================================================================
+# 🔥 DJANGO & PYTHON CORE
+# ====================================================================
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Veri tabanını kesinlikle kilitliyoruz (GitHub'a asla gitmemeli)
+db.sqlite3
+db.sqlite3-journal
+
+# Sunucuda toplanan statik ve medya dosyaları (Repoyu şişirmemeli)
+staticfiles/
+media/
+
+# ====================================================================
+# 🍏 macOS SYSTEM FILES (Sistem Kalıntıları)
+# ====================================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# ====================================================================
+# 🔑 ENVIRONMENTS & CREDENTIALS (Sanal Ortamlar ve Gizli Anahtarlar)
+# ====================================================================
+.env
+.venv
+env/
+venv/
+env311/
+ENV/
+*.bak/
+
+# ====================================================================
+# 🛠️ IDEs & EDITORS (VS Code & PyCharm Ayarları)
+# ====================================================================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ====================================================================
+# 📝 CUSTOM LOCAL NOTES 
+# ====================================================================
+Readme_local.md
+Readme_deploye.md
