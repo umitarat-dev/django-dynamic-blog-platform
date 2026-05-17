@@ -15,7 +15,7 @@
       🖥️ Live Demo
     </a>
      | 
-    <a href="https://github.com/umitarat-dev/django-google-allauth-integration.git">
+    <a href="https://github.com/umitarat-dev/django-dynamic-blog-platform.git">
       📂 Repository
     </a>
   </h3>
